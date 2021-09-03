@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Document</title>
+        <style>
+            .header{
+                width:1280px;
+                height: 50px;
+                background:#333;
+                margin:20px auto;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 0.8em;
+            }
+            body{
+                background-image: url(./img/menu.png);
+            }
+            .header > ul{
+                list-style: none;
+            }
+            .header > ul > li{
+                float: left;
+            }
+            .header > ul > li > a{
+                display: inline-block;
+                height:12px;
+                padding:19px;
+                line-height:12px;
+                color: #fff;
+                text-decoration: none;
+
+            }
+            .ac{
+                background:#ff6347;
+            }
+            .header > ul > li:hover >a{
+                background:#ff6347; 
+            }
+            .img{
+                background-image: url(./img/ufo.png);
+                background-repeat: no-repeat;
+                background-size: 15px 15px;
+                background-position:0px 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="header">
+            <ul>
+                <li>
+                    <a href="#" class="img"> Company logo</a> 
+                </li>
+                <li>
+                   <a href="#" class="ac"><i class="fas fa-home"></i>Active</a>
+                </li>
+                <li>
+                   <a href="#">Drop down <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li>
+                    <a href="#">Mega Menu <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li>
+                   <a href="#">Grid <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li>
+                   <a href="#">Tab Bar <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li>
+                   <a href="#">Images <i class="fas fa-chevron-down"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </body>
+</html>
