@@ -78,7 +78,7 @@
                 background:#fff;
                 position: absolute;
                 top:0px;
-                left: 250px !important; 
+                left:250px;
             }
             .mymenu1 > a{
                 text-decoration: none;
@@ -102,28 +102,27 @@
             .mainmenu > li > .mymenu > li > .mymenu1 > li > a:hover{
                 background:#ff6347;
             }
-            .mymenu2{
-                width: 200px;
-                height: 144px;
-                background:white;
-                position:absolute;
-                top:0px;
-                right:-240px;
-                text-decoration:none !important;
-                list-style:none !important; 
-            }
-            .mymenu2 > a{
-                width:200px;
-                height:60px;
-                display:block;
-                background: #ff6347;
-                line-height:60px;   
-                text-decoration:none;
-                list-style:none;
+            .fa-chevron-left{
+                float: right;
                 line-height: 60px;
+                left: 10px;
             }
-            .mymenu> li{
-                position: relative;
+            .fa-chevron-right{
+                float:  right !important;
+                line-height: 60px;
+                right: -10px;
+            }
+            .mymenu2{
+                width: 191px;
+                height: 150px;
+            }
+            .leftp{
+                left: -250px !important;
+            }
+            .v1{
+                float:  right !important;
+                line-height: 60px;
+                right: -10px;
             }
         </style>
     </head>
@@ -142,21 +141,85 @@
                        <li><a href="#">Item one</a></li>
                        <li><a href="#">Item Right Side <i class="fas fa-chevron-right"></i></a>
                            <ul class="mymenu mymenu1">
-                            <li><a href="#">Level 2</a>
-                                <ul class="mymenu2">
-                                    <li><a href="#">Level 3</a></li>
-                                    <li><a href="#">Level 3</a></li>
-                                    <li><a href="#">Level 3</a></li>
+                            <li><a href="#"><i class="fab fa-autoprefixer"></i>Level 2<i class="fas fa-chevron-right"></i></a>
+                                <ul class="mymenu mymenu1 mymenu2">
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
                                 </ul>
                             </li>
-                            <li><a href="#">Level 2</a></li>
-                            <li><a href="#">Level 2</a></li>
-                            <li><a href="#">Level 2</a></li>
-                            <li><a href="#">Level 2</a></li>
+                            <li><a href="#"><i class="far fa-square"></i>Level 2<i class="fas fa-chevron-right"></i></a>
+                                <ul class="mymenu mymenu1 mymenu2">
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fab fa-medium-m"></i>Level 2<i class="fas fa-chevron-right"></i></a>
+                                <ul class="mymenu mymenu1 mymenu2">
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fas fa-heartbeat"></i> Level 2<i class="fas fa-chevron-right"></i></a>
+                                <ul class="mymenu mymenu1 mymenu2">
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fas fa-book-open"></i>Level 2<i class="fas fa-chevron-right"></i></a>
+                                <ul class="mymenu mymenu1 mymenu2">
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                </ul> 
+                            </li>
                            </ul>
                     </li>
-                       <li><a href="#">Item 2 <i class="fas fa-chevron-left"></i></a></li>
-                       <li><a href="#">Item Left Side</a></li>
+                       <li><a href="#">Item 2</i></a></li>
+                       <li><a href="#">Item Left Side <i class="fas fa-chevron-left"></i></a>
+                        <ul class="mymenu mymenu1 leftp">
+                            <li><a href="#"><i class="fab fa-forumbee"></i>Level2</a>
+                            </li>
+                            <li><a href="#"><i class="fas fa-bed"></i>Level2</a>
+                            </li>
+                            <li><a href="#"><i class="fas fa-car"></i>Level2</a>
+                            </li>
+                            <li><a href="#"><i class="fas fa-heartbeat"></i>Level2<i class="fas fa-plus v1"></i></a>
+                                <ul class="mymenu mymenu1">
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>
+                                    <li><a href="#">Level3</a>
+                                    </li>     
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="far fa-bookmark"></i>Level2</a>
+                            </li>
+                            <li><a href="#"><i class="fas fa-bell"></i>Level2</a>
+                            </li>
+                        </ul>
+                    </li>
                        <li><a href="#">Item 4</a></li>
                    </ul>
                 </li>
